@@ -41,7 +41,7 @@ if __name__ == '__main__':
     temperature = 1.
     timesteps = int(models[0].input[0]._keras_shape[1])
 
-    while iteration < 100:
+    while True:
         print("-- ITERATION %d --" % iteration)
         print("-- REHARMONIZATION %d --" % reharmonization)
 
